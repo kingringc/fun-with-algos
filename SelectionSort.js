@@ -1,5 +1,14 @@
-//Selection Sort
-const selectionSort = numberArray => {
+/**
+* Selection Sort
+*
+*/
+
+/**
+* WIP, to feature both ascending &
+* descending order sort.
+*
+*/
+export const selectionSort = (numberArray, asc = true) => {
 	if (numberArray.length && numberArray.length > 1) {
 		let _numberAray = numberArray.slice();
 		const length = _numberAray.length;
